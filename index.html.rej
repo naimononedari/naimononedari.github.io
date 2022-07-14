@@ -1,0 +1,10 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -10,6 +10,8 @@
+     <div>
+         <h1>Git example</h1>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem.</p>
++
++        <h3>New Heading</h3>
+     </div>
+     
+ </body>
