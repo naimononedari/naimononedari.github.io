@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(./images/otonokizaka.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* .poster{
+    width: 627px;
+    height: 770px;
+    left: 406px;
+    top: 127px;
+    background-image: url(./images/Love_Live_movieposter.png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+
+} */
+
+.row{
+    justify-content: center;
+}
+
+.date-container{
+    width: 110px;
+    height: 35px;
+    background: rgba(170, 165, 162, 0.38);
+    border-radius: 16px;
+    text-align: left;
+    
+
+}
+
+.date{
+    text-align: left;
+    padding: 4px;
+    width: 176px;
+    height: 35px;
+    font-family: 'Maitree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
