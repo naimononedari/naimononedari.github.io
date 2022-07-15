@@ -2,9 +2,27 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-image: url(./images/otonokizaka.jpg);
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
+}
+
+/* .poster{
+    width: 627px;
+    height: 770px;
+    left: 406px;
+    top: 127px;
+    background-image: url(./images/Love_Live_movieposter.png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+
+} */
+
+.row{
+    justify-content: center;
 }
