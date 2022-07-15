@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(./images/otonokizaka.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.website{
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:deeppink;
+}
+
+li{
+    color: white;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 10px;
+    font-weight: 900;
+    text-shadow: 2px 2px gray;
+}
+
+.news{
+    background-color: hotpink;
+}
+
+.cast{
+    background-color: pink;
+}
+
+.story{
+    background-color: magenta;
+}
+
+.about{
+    background-color: dodgerblue;
+}
+
+.members{
+    background-color: aqua;
+}
+
+h4{
+    color: white;
+    background-color: hotpink;
+    margin-top: 10px;
+    text-indent: 10px;
+    border-radius: 10px;
+}
+
+h6 p{
+    color: white;
+    background-color: rgb(250, 117, 208);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* .card-container{
+    width: 300px;
+} */
+
+/* @media screen and max-screen(475px) {
+    .card-container{
+        width: 200px;
+    }
+}
+    
+     */
