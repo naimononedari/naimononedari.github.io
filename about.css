@@ -74,3 +74,15 @@ h4{
     text-indent: 10px;
     border-radius: 10px;
 }
+
+
+.about-lovelive{
+    font-size: 18px;
+    color: #E558AD;
+    margin: 22px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
