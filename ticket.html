@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Live! Movie Ticket</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./ticket.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <img src="./images/lovelive-header.png">
+    </header>
+
+
+    <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-4">
+            <nav>
+                <ul class="list-group">
+                    <li class="home list-group-item">
+                        <a href="./index.html">HOME</a></li>
+                    <li class="news list-group-item">
+                        <a href="news.html">NEWS</a></li>
+                    <li class="cast list-group-item" ><a href="./cast.html">CAST & STAFF</a></li>
+                    <li class="story list-group-item"><a href="./story.html">STORY</a></li>
+                    <li class="about list-group-item"><a href="./about.html">ABOUT Love Live! Project</a></li>
+                    <li class="members list-group-item"><a href="./members.html">MEMBERS</a></li>
+                </ul>
+
+            </nav>
+          </div>
+
+
+        <div class="col-8 bg-light">
+            
+            <h4>TICKETS</h4>
+
+            <form>
+
+
+                <div class="row d-flex justify-content-center">
+
+                    <div class="col-lg-11 col-sm-6">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputdefault">
+                        </div>
+        
+                </div>
+
+                <br>
+
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-sm-6 d-flex justify-content-center">
+                        <select class="browser-default custom-select mb-4" id="select">
+                            <option value="" disabled="" selected="">Location</option>
+                            <option value="1">Mall of Asia</option>
+                            <option value="2">SM Bacoor</option>
+                            <option value="3">SM Megamall</option>
+                        </select>
+                    </div>
+        
+                    <div class="col-lg-4 col-sm-6 d-flex justify-content-center">
+                        <select class="browser-default custom-select mb-4" id="select">
+                            <option value="" disabled="" selected="">Time</option>
+                            <option value="1">11:00 AM</option>
+                            <option value="2">2:30 PM</option>
+                            <option value="3">5:00 PM</option>
+                        </select>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 d-flex justify-content-center">
+                        <select class="browser-default custom-select mb-4" id="select">
+                            <option value="" disabled="" selected="">Quantity</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="1">4</option>
+                            <option value="2">5</option>
+                            <option value="3">6</option>
+                            <option value="1">7</option>
+                            <option value="2">8</option>
+                            <option value="3">9</option>
+                            <option value="3">10</option>
+
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-11 col-sm-6">
+                    <p><strong> Choose Payment Method</strong></p>
+
+                    <div class="form-check col-lg-4 col-sm-6">
+                        
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1 mb-3">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Credit Crad
+                        </label>
+                      </div>
+
+                      <div class="form-check col-lg-4 col-sm-6">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          GCash / Paymaya
+                        </label>
+                    </div>
+                </div>
+                
+
+
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary me-md-2" type="button">Purchase</button>
+                  </div>
+              </form>
+              
+
+
+        </div>
+
+
+
+        <br>
+    </div>
+    
+
+
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
