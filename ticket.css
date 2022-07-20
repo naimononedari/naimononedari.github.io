@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-image: url(./images/otonokizaka.jpg);
     background-attachment: fixed;
@@ -28,6 +30,11 @@ ul{
 a{
     text-decoration: none;
     color: white;
+}
+
+.website{
+    color: black;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -69,21 +76,15 @@ li{
 
 h4{
     color: white;
-    background-color: magenta;
+    background-color: hotpink;
     margin-top: 10px;
     text-indent: 10px;
     border-radius: 10px;
 }
 
-.summary{
-    font-size: 18px;
-    color: #E558AD;
-}
-
 h6 p{
     color: white;
     background-color: rgb(250, 117, 208);
-    padding: 2px;
-    border-radius: 4px;
-    text-indent: 12px;
+    padding: 10px;
+    border-radius: 10px;
 }
