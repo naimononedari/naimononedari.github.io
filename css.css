@@ -31,10 +31,14 @@ body{
     padding: 4px;
     width: 176px;
     height: 35px;
-    font-family: 'Maitree';
+    /* font-family: 'Maitree'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
     color: #000000;
+}
+
+.bg-pink{
+    background-color: pink;
 }
