@@ -1,4 +1,4 @@
-# sif-project.github.io
+# naimononedari.github.io
 
 source:
 https://www.lovelive-anime.jp/otonokizaka/worldwide/
